@@ -5,24 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="556f28d4-179d-4af6-9e8a-f96bca1a419b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/components/CreateProduct.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/DisplayAll.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/OneProduct.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/UpdateProduct.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/view/Main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/routes/product.routes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/ProductForm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/ProrductList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/views/Main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/config/mongoose.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/config/mongoose.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/controllers/product.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/product.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/models/product.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/models/product.model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routes/products.routes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1660321177324</updated>
       <workItem from="1660321178636" duration="6260000" />
-      <workItem from="1660367154769" duration="6501000" />
+      <workItem from="1660367154769" duration="7181000" />
     </task>
     <servers />
   </component>
