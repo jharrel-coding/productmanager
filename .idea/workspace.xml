@@ -6,6 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="556f28d4-179d-4af6-9e8a-f96bca1a419b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/config/mongoose.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/mongoose.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controllers/product.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/product.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/models/product.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/product.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/product.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/product.routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +69,7 @@
       <updated>1660321177324</updated>
       <workItem from="1660321178636" duration="6260000" />
       <workItem from="1660367154769" duration="7181000" />
+      <workItem from="1660375099445" duration="311000" />
     </task>
     <servers />
   </component>
