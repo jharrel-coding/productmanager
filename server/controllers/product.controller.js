@@ -1,24 +1,39 @@
-const Product = require('../models/product.model')
-module.exports.index = (request, response) => {
-    response.json({
-        message: "Howdy"
-    });
-}
+const Product = require("../models/product.model.js");
 
-module.exports.createProduct = (request, response) => {
-    Product.create(request.body)
-    .then(product => response.json(product))
-    .catch(err => response.json(err));
-}
 
-module.exports.getAllProduct = (request, response) => {
-    Product.find({})
-        .then(products => {
-            console.log(products);
-            response.json(products);
+module.exports = {
+    getAllProducts: (req, res) => {
+        Product.find({})
+            .then((allProducts) => res.json(allProducts))
+            .catch((err) => console.log(err));
+    },
+
+    getOneProduct: (req, res) => {
+        Product.findOne({ _id: req.params.id }) //We have to specify which field we want to search for our individual product (called a document in mongodb) by
+
+            .then((oneProduct) => res.json(oneProduct))
+            .catch((err) => console.log(err));
+    },
+
+    createProduct: (req, res) => {
+        Product.create(req.body)
+            .then((newProduct) => res.json(newProduct))
+            .catch((err) => console.log(err));
+    },
+
+
+    updateProduct: (req, res) => {
+        Product.findByIdAndUpdate({ _id: req.params.id }, req.body, {
+            new: true,
+            runValidators: true,
         })
-        .catch(err => {
-            console.log(err)
-            response.json(err)
-        })
-    }
+            .then((updatedProduct) => res.json(updatedProduct))
+            .catch((err) => console.log(err));
+    },
+
+    deleteProduct: (req, res) => {
+        Product.deleteOne({ _id: req.params.id })
+            .then((deletedId) => res.json(deletedId))
+            .catch((err) => console.log(err));
+    },
+};
